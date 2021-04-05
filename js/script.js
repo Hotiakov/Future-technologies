@@ -20,16 +20,16 @@ $(document).ready(function() {
 			.css("display", "flex")
 			.hide()
 			.fadeIn();
-		$('body').addClass('lock');
+		$('body').addClass('lock2');
 	});
 	$('.popup__close').click(function(event){
 		$(".popup").fadeOut();
-		$('body').removeClass('lock');
+		$('body').removeClass('lock2');
 	});
 	$('body').keydown(function(event) {
 		if(event.keyCode == 27){
 			$(".popup").fadeOut();
-			$('body').removeClass('lock');
+			$('body').removeClass('lock2');
 		}
 	});
 	$(".phone-input").mask("+7 (999) 999-99-99");

@@ -28,7 +28,8 @@ body {
   background: #07071C;
 }
 
-body.lock {
+body.lock,
+body.lock2 {
   overflow: hidden;
 }
 
