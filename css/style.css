@@ -137,6 +137,7 @@ h4 {
   outline: none;
   cursor: pointer;
   color: #087DEA;
+  z-index: 20;
 }
 
 .btn-main {
